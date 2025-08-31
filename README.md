@@ -34,3 +34,12 @@ kubectl apply -f virtualservice-50-50.yaml
 100% → v2
 kubectl apply -f virtualservice-0-100.yaml
 
+## ✅ Project Output
+
+- 100% traffic → v1  
+
+- 50% traffic split → v1 & v2  
+
+- 100% traffic → v2  
+
+
