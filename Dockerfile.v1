@@ -1,0 +1,4 @@
+FROM nginx:alpine
+COPY v1.html /usr/share/nginx/html/index.html
+LABEL app=myapp
+EXPOSE 80
